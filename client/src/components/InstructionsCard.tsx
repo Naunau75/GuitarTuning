@@ -25,6 +25,18 @@ export default function InstructionsCard() {
             <span className="bg-primary/20 text-primary rounded-full h-5 w-5 flex items-center justify-center text-xs font-bold">4</span>
             A centered needle and green indicator means your string is in tune
           </p>
+          
+          <div className="mt-4 mb-2 border-t border-muted/20 pt-4">
+            <p className="text-secondary font-medium mb-2">Pro Tips:</p>
+            <p className="flex items-center gap-2 pl-3 text-xs mb-2">
+              <span className="h-1.5 w-1.5 rounded-full bg-secondary"></span>
+              Enable Auto-detect to automatically select the string you're playing
+            </p>
+            <p className="flex items-center gap-2 pl-3 text-xs">
+              <span className="h-1.5 w-1.5 rounded-full bg-secondary"></span>
+              For best results, keep background noise to a minimum
+            </p>
+          </div>
         </div>
       </details>
     </div>
